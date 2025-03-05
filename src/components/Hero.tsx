@@ -7,13 +7,13 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden pt-20 pb-16 px-4">
       {/* Background Elements */}
-      <div className="absolute inset-0 -z-10 bg-pastel-gray/60"></div>
-      <div className="absolute top-40 -left-20 w-72 h-72 bg-pastel-blue/30 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 -right-20 w-80 h-80 bg-pastel-purple/20 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 -z-10 bg-[#333333]/70"></div>
+      <div className="absolute top-40 -left-20 w-72 h-72 bg-[#1A1F2C]/40 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 -right-20 w-80 h-80 bg-[#403E43]/30 rounded-full blur-3xl"></div>
       
       <div className="max-w-5xl mx-auto text-center space-y-8 animate-fade-in-up">
         {/* Pre-heading */}
-        <div className="inline-block px-3 py-1 rounded-full bg-pastel-peach/40 text-sm font-medium mb-4">
+        <div className="inline-block px-3 py-1 rounded-full bg-[#555555]/60 text-sm font-medium mb-4 text-white">
           AI App Development Agency
         </div>
         
