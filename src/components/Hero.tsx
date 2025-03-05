@@ -19,16 +19,16 @@ const Hero = () => {
         
         {/* Main Heading */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-          We build intelligent applications for the 
+          We build intelligent applications that 
           <AnimatedGradient className="inline-block mx-2 px-2 rounded-md">
-            <span className="text-white">distant horizon</span>
+            <span className="text-white">transform businesses</span>
           </AnimatedGradient>
         </h1>
         
         {/* Subheading */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mt-6 text-balance">
-          Crafting AI-powered solutions that transform businesses with elegance, 
-          precision, and a touch of the extraordinary.
+          Crafting AI-powered solutions that enhance efficiency, drive growth, 
+          and deliver measurable results for your organization.
         </p>
         
         {/* CTA Buttons */}
