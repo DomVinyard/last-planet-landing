@@ -21,7 +21,7 @@ const ServiceCard = ({ title, description, icon, color }: ServiceCardProps) => {
         <div className={cn(
           "inline-flex items-center justify-center w-12 h-12 rounded-lg",
           color,
-          "bg-opacity-30"
+          "bg-opacity-20"
         )}>
           {icon}
         </div>
@@ -41,37 +41,37 @@ const Services = () => {
       title: "AI Strategy Consulting",
       description: "We help businesses identify opportunities for AI integration and develop comprehensive implementation strategies.",
       icon: <Brain className="h-6 w-6 text-primary" />,
-      color: "bg-[#403E43]"
+      color: "bg-pastel-purple"
     },
     {
       id: 2,
       title: "Custom AI Development",
       description: "Build tailored AI solutions designed specifically for your unique business challenges and objectives.",
       icon: <Code className="h-6 w-6 text-primary" />,
-      color: "bg-[#1A1F2C]"
+      color: "bg-pastel-blue"
     },
     {
       id: 3,
       title: "AI Cloud Solutions",
       description: "Deploy and scale AI applications with our cloud-native architecture and infrastructure expertise.",
       icon: <Cloud className="h-6 w-6 text-primary" />,
-      color: "bg-[#222222]"
+      color: "bg-pastel-green"
     },
     {
       id: 4,
       title: "AI Integration Services",
       description: "Seamlessly connect AI capabilities with your existing systems, applications, and workflows.",
       icon: <Zap className="h-6 w-6 text-primary" />,
-      color: "bg-[#333333]"
+      color: "bg-pastel-peach"
     }
   ];
 
   return (
-    <section id="services" className="py-24 px-4 bg-[#222222]/90">
+    <section id="services" className="py-24 px-4 bg-pastel-yellow/30">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Services</h2>
-          <p className="text-lg text-gray-300">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+          <p className="text-lg text-muted-foreground">
             We offer a comprehensive suite of AI development services to bring your vision to life.
           </p>
         </div>
