@@ -21,7 +21,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
           We build intelligent applications for the 
           <AnimatedGradient className="inline-block mx-2 px-2 rounded-md">
-            <span className="text-white">final frontier</span>
+            <span className="text-white">distant horizon</span>
           </AnimatedGradient>
         </h1>
         
